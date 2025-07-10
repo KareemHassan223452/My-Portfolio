@@ -14,7 +14,7 @@ function App() {
       <header className={styles.heroSection}>
         <div className={styles.heroContainer}>
           <motion.img 
-            src="/Profile.jpg.jpeg" 
+            src={process.env.PUBLIC_URL + '/Profile.jpg.jpeg'} 
             alt="Profile Photo" 
             className={styles.profileTopRight}
             whileHover={{ scale: 1.08, rotate: 6 }}
@@ -90,6 +90,7 @@ function App() {
               <li>JMeter</li>
               <li>REST, SOAP APIs</li>
               <li>FastAPI</li>
+              <li>React</li>
             </ul>
           </div>
         </motion.section>
