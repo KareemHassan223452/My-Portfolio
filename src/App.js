@@ -27,7 +27,7 @@ function App() {
               <li className={styles.navItem}><a href="#about">About</a></li>
               <li className={styles.navItem}><a href="#projects">Projects</a></li>
               <li className={styles.navItem}><a href="#languages">Programming Languages</a></li>
-              <li className={styles.navItem}><a href="#tools">Tools & Software</a></li>
+              <li className={styles.navItem}><a href="#tools">Technical Skills</a></li>
               <li className={styles.navItem}><a href="#experience">Experience</a></li>
               <li className={styles.navItem}><a href="#contact">Contact</a></li>
             </ul>
@@ -65,6 +65,7 @@ function App() {
               <li>HTML</li>
               <li>SQL</li>
               <li>CSS</li>
+              <li>TypeScript</li>
             </ul>
           </div>
         </motion.section>
@@ -75,22 +76,13 @@ function App() {
           viewport={{ once: true, amount: 0.3 }}
         >
           <div className={styles.sectionContainer}>
-            <h2 className={styles.sectionTitle}>Tools & Software</h2>
+            <h2 className={styles.sectionTitle}>Technical Skills</h2>
             <ul className="skills-list">
-              <li>Microsoft Office</li>
-              <li>Unity</li>
-              <li>Microsoft Visual Studio</li>
-              <li>Cisco Packet Tracker</li>
-              <li>Visual Studio</li>
-              <li>Proteus</li>
-              <li>NetBeans IDE</li>
-              <li>Adobe</li>
-              <li>SQL Server</li>
-              <li>Selenium</li>
-              <li>JMeter</li>
-              <li>REST, SOAP APIs</li>
-              <li>FastAPI</li>
-              <li>React</li>
+              <li>Automation & Testing: Selenium, Appium, TestNG, Cucumber, JMeter</li>
+              <li>Frontend Development: React, React Native</li>
+              <li>API & Backend: REST APIs, SOAP APIs, FastAPI</li>
+              <li>IDEs & Tools: VS Code, Android Studio, NetBeans IDE</li>
+              <li>Databases: SQL Server</li>
             </ul>
           </div>
         </motion.section>
@@ -103,6 +95,10 @@ function App() {
           <div className={styles.sectionContainer}>
             <h2 className={styles.sectionTitle}>Work Experience</h2>
             <p style={{ color: '#fff', fontSize: '1.1rem', margin: 0 }}>
+              Software Engineer internship at Masria Digital Payment (MDP) (July 2025 – August 2025)<br />
+              • Automation Testing for Bank mobile applications (AGB Bank, Fidelity Bank) using Appium Software by TypeScript, focusing on functional testing.<br />
+              • Contributed to real mobile app development projects utilizing React Native (Expo), implementing features based on user feedback and client needs.<br /><br />
+              
               Software Tester (Quality Assurance) at Tutoruu (October 2024 – March 2025)<br />
               - Automation Testing using Selenium Software by Python and Java.<br />
               - Creation of Testing Environment for Universities of Canada's B2B Mobile App and Portal.<br />
